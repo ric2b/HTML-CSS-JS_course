@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="enUS">
+
+<head>
+    <title>HTML Page</title>    
+</head>
+
+
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Application Form</legend>
+            First Name: <input name="firstName" type="text" placeholder="Enter your first name" />
+            Last Name: <input name="lastName" type="text" placeholder="Enter your last name" />
+            <input name="email_address" type="email" required="required" placeholder="Enter your e-mail address" />
+            <input name="zip_code" type="text" pattern="\d{5}(-\d{4})?" required="required" />
+            <input name="profile_url" type="url" readonly="readonly" />
+            <input name="issue_quantity" type="range" min="1" max="15" />
+
+
+            <input type="submit" value="Enroll" disabled="disabled" />
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
